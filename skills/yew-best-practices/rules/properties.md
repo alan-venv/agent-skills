@@ -29,7 +29,7 @@ fn Greeting(props: &GreetingProps) -> Html {
 
 #[component]
 fn App() -> Html {
-    html! { <Greeting name="Sam" /> }
+    html! { <Greeting name="John" /> }
 }
 ```
 
