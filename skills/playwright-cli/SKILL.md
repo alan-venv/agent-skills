@@ -92,6 +92,9 @@ playwright-cli localstorage-list
 ## Advanced Tools
 
 ```bash
+# window resize
+playwright-cli resize 1920 1080
+
 # network mocking
 playwright-cli route "**/api/**" --body='{"ok":true}' --content-type=application/json
 playwright-cli route-list
