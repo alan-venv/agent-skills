@@ -15,6 +15,8 @@ This approach keeps agents fast while giving them access to more context on dema
 ## Directory Structure
 
 ```
+scripts/
+  install-skill.sh        # Install script
 skills/
   {skill-name}/           # kebab-case directory name
     SKILL.md              # Required: skill definition
@@ -22,18 +24,13 @@ skills/
     references/           # Optional: documentation
 ```
 
-## Where to save skills
+## Installing
 
-Agents commonly scan these locations:
+Run the installer from the root of the project that should receive the skill:
 
-**Codex CLI:**
 ```bash
-mkdir -p {project-path}/.agents/skills/
-cp -r skills/{skill-name} {project-path}/.agents/skills/
+curl -fsSL https://raw.githubusercontent.com/alan-venv/agent-skills/main/scripts/install-skill.sh | bash
 ```
 
-**Claude Code:**
-```bash
-mkdir -p {project-path}/.claude/skills/
-cp -r skills/{skill-name} {project-path}/.claude/skills/
-```
+The script lists the available skills and installs the selected one into `.agents/skills/`.
+If the selected skill already exists, it is replaced.
