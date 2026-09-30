@@ -1,0 +1,5 @@
+# Files
+
+- README.md files are for humans: quick starts, project descriptions, and contribution guidelines.
+
+- AGENTS.md complements this by containing the extra, sometimes detailed context coding agents need: build steps, tests, and conventions that might clutter a README or aren’t relevant to human contributors.

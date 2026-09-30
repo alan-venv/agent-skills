@@ -1,17 +1,10 @@
-# AGENTS.md
+# AGENTS
 
-This file provides guidance to AI coding agents when working in this repository.
+## Project Overview
 
-## Repository Overview
+A collection of reusable agent skills.
 
-A collection of reusable skills for agents.
+## General Guidelines
 
-## Directory Structure
-
-```
-skills/
-  {skill-name}/           # kebab-case directory name
-    SKILL.md              # Required: skill definition
-    scripts/              # Optional: executable code
-    references/           # Optional: documentation
-```
+- Use short, specific, kebab-case skill names and keep naming consistent across directories and metadata.
+- Keep skills short and focused. place detailed guidance in references and link to it.
