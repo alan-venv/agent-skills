@@ -31,6 +31,3 @@ Run the installer from the root of the project that should receive the skill:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/alan-venv/agent-skills/main/scripts/install-skill.sh | bash
 ```
-
-The script lists the available skills and installs the selected one into `.agents/skills/`.
-If the selected skill already exists, it is replaced.
