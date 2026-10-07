@@ -11,7 +11,7 @@ Create or overwrite every file listed below in the agent's current working direc
 ## Files
 
 - `AGENTS.md`: `references/agents-md.md`.
-- `.knowledge/index.md`: `references/knowledge-index.md`.
+- `.knowledge/index.md`: `references/index.md`.
 - `.knowledge/entrypoints.md`: `references/entrypoints.md`.
 - `.knowledge/architecture.md`: `references/architecture.md`.
 - `.knowledge/glossary.md`: `references/glossary.md`.
