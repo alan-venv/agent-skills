@@ -15,7 +15,7 @@ For each instruction, check whether it directly affects work on this project. If
 3. Identify the project's purpose, development commands, and conventions that affect changes.
 4. Verify commands against the project configuration. Do not invent commands, restrictions, or conventions.
 
-Use the user's project-specific requirements and the project's existing practices. If essential information is missing and cannot be inferred from the files, ask a focused question.
+Use the user's project-specific requirements and the project's existing practices.
 
 ## Write the Guide
 
@@ -28,8 +28,6 @@ Use the following sections:
 - Project Structure: Describe each relevant directory and its role in a separate bullet. Use exactly one directory per bullet; do not list individual files or group directories on the same line.
 - Development Commands: Give exact commands for installing dependencies, running, testing, linting, or building. Do not add introductory text, parenthetical notes, or trailing explanations.
 
-Use English unless the user requests another language.
-
 ## Writing Rules
 
 - Use direct, imperative instructions.
@@ -41,7 +39,7 @@ Use English unless the user requests another language.
 
 Keep the title, introductory sentence, section order, and bullet formats below. Adapt the placeholder content to the project.
 
-The first two General Guidelines bullets are the mandatory guidelines. Keep them as written, replacing only `$TEST_COMMAND`.
+The first three General Guidelines bullets are the mandatory guidelines. Keep them as written, replacing only `$TEST_COMMAND`.
 
 ```md
 # AGENTS.md
@@ -56,6 +54,7 @@ $PROJECT_DESCRIPTION
 
 - Do not add dependencies unless explicitly requested or authorized.
 - After any code change, run `$TEST_COMMAND` and fix any failures before considering the task complete.
+- Use `.knowledge/index.md` to find project knowledge relevant to the task.
 - $PROJECT_INSTRUCTION
 
 ## Project Structure
@@ -79,7 +78,7 @@ Before delivering the file, verify each requirement:
 
 - The introductory sentence appears between the title and Project Overview.
 - All four sections appear in the template order.
-- Both mandatory guidelines are present, with a verified test command.
+- All three mandatory guidelines are present, with a verified test command.
 - Each Project Structure bullet contains exactly one directory and its role, with no individual files.
 - Development Commands contains only bullets, with a single lowercase action word and no extra text.
 - No placeholders, redundant context, or unsupported claims remain.
