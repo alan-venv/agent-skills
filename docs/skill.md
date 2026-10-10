@@ -29,3 +29,5 @@ Exemplos:
 - `Guidelines for writing, reviewing, and refactoring Yew code.`: descreve uma skill de conhecimento ao identificar as tarefas nas quais suas orientações são relevantes.
 
 Não existe uma construção obrigatória. Formas como `Use X to...`, `Use when...` e frases nominais como `Guidelines for...` podem ser adequadas. A escolha depende do tipo de skill e da informação que seu nome ainda não comunica. Uma boa descrição identifica claramente o domínio e as principais situações de uso. O objetivo é reduzir tanto falsos acionamentos quanto a ausência da skill em tarefas relevantes.
+
+Comece a descrição da skill com um verbo na terceira pessoa do singular. O sujeito implícito é a própria skill, como em "Manages...", "Creates..." e "Handles...". O imperativo ("Manage...") também é aceito, mas é menos comum.
